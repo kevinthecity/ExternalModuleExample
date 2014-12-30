@@ -1,6 +1,6 @@
 # ExternalModuleExample
 
-Example of how to have an external project as a dependency. The key piece to pay attention to here is the top level [settings.gradle]() and the app modules [build.gradle]() file.
+Example of how to have an external project as a dependency. The key piece to pay attention to here is the top level [settings.gradle](https://github.com/kevinthecity/ExternalModuleExample/blob/master/settings.gradle) and the app modules [build.gradle](https://github.com/kevinthecity/ExternalModuleExample/blob/master/app/build.gradle#L25) file.
 
 ## settings.gradle
 In `settings.gradle` you will see a reference to include the external module into your project. 
