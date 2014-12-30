@@ -1,6 +1,6 @@
 # ExternalModuleExample
 
-Example of how to have an external project as a dependency. The key piece to pay attention to here is the top level [settings.gradle](https://github.com/kevinthecity/ExternalModuleExample/blob/master/settings.gradle) and the app modules [build.gradle](https://github.com/kevinthecity/ExternalModuleExample/blob/master/app/build.gradle#L25) file. This project requires the [ExoPlayer](https://github.com/google/ExoPlayer) for demonstration purposes.
+Example of how to have an external project as a dependency. The key piece to pay attention to here is the top level [settings.gradle](https://github.com/kevinthecity/ExternalModuleExample/blob/master/settings.gradle) and the app modules [build.gradle](https://github.com/kevinthecity/ExternalModuleExample/blob/master/app/build.gradle#L25) file. This project requires the [ExoPlayer](https://github.com/google/ExoPlayer) library for demonstration purposes.
 
 ## settings.gradle
 In `settings.gradle` you will see a reference to include the external module into your project. 
